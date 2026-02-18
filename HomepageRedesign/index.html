@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pan-Asia Supermarket</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="contact">
+        <span>(913) 345-9001</span>
+        <span> panasiakansas@gmail.com</span>
+    </div>
+    <div class="social">
+        <span><a href="#" class="fa fa-facebook"></a></span>
+        <span><a href="#" class="fa fa-instagram"></a></span>
+        <span><a href="#" class="fa fa-twitter"></a></span>
+    </div>
+</div>
+
+<header class="header">
+    <img src="assets/Logo.jpeg" alt="Pan-Asia Logo" class="logo">
+
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Locations</a>
+        <a href="#">Contact</a>
+        <a href="#">Order Online</a>
+    </nav>
+</header>
+
+<main class="content">
+
+    <h1> <a href="https://www.panasiasupermarket.com/overland-park--ks--12035-metcalf-.html" target="_blank">Visit Pan-Asia site </a> </h1>
+
+    <div class="hero">
+        <img id="heroImage" src="assets/storefront.jpg" alt="Store front">
+    </div>
+
+    <div class="thumbnails">
+        <img src="assets/storefront.jpg" onclick="swapHero(this.src)" alt="Store front">
+        <img src="assets/Product1.jpg" onclick="swapHero(this.src)" alt="Aisle of miso paste">
+        <img src="assets/Product2.jpg" onclick="swapHero(this.src)" alt="Aisle of asian snacks">
+        <img src="assets/Product3.jpg" onclick="swapHero(this.src)" alt="Aisle featuring bags of rice">
+        <img src="assets/Product5.jpg" onclick="swapHero(this.src)" alt="Aisle of frozen goods">
+        <img src="assets/Product6.jpg" onclick="swapHero(this.src)" alt="Pan asia food court">
+        <img src="assets/Product7.jpg" onclick="swapHero(this.src)" alt="Pan asia Boba tea menu">
+    </div>
+
+    <div class="info-grid">
+        <section class="about">
+            <article class ="description">
+            <h2>Pan-Asia Supermarket is the largest Asian grocery store in your town</h2>
+
+            <p>
+                with best selection of Asian vegetable, fruit, seafood, meat and grocery products.
+                Our products are from all over the Asia and mid-east countries:
+            </p>
+            </article>
+
+            <ul class="countries">
+                <li>Chinese</li><li>Vietnamese</li><li>Korean</li>
+                <li>Japanese</li><li>Thai</li><li>Filipino</li>
+                <li>Indian</li><li>Pakistani</li><li>Indonesian</li>
+                <li>Malaysian</li><li>Burmese</li><li>Laos</li>
+                <li>Singapore</li><li>Hmong</li><li>Cambodian</li>
+            </ul>
+
+            <h3>Departments</h3>
+            <ul class="departments">
+                <li>Produce</li>
+                <li>Meat</li>
+                <li>Live and Fresh Seafood</li>
+                <li>Grocery</li>
+                <li>Dairy</li>
+                <li>Frozen</li>
+                <li>Bakery</li>
+                <li>Cafe (10:30am – 8pm)</li>
+                <li>Boba Tea (10:30am – 8pm)</li>
+                <li>Sushi</li>
+                <li>Lottery</li>
+            </ul>
+        </section>
+
+        <aside class="location">
+            <iframe
+                src="https://www.google.com/maps?q=12035%20Metcalf%20Ave%20Overland%20Park%20KS&output=embed"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+
+            <address>
+                <strong>12035 Metcalf Ave.</strong><br>
+                Overland Park, KS
+            </address>
+
+            <div class="hours">
+                <strong>Store Hours</strong><br>
+                9AM – 8:30PM<br><br>
+                <span class="open">Open 365 days a year!</span>
+            </div>
+        </aside>
+
+    </div>
+
+
+</main>
+
+    <footer> 
+        Copyright © Pan-Asia Supermarket   All rights Reserved
+    </footer>
+
+<script>
+function swapHero(src) {
+    document.getElementById('heroImage').src = src;
+}
+</script>
+
+</body>
+</html>
